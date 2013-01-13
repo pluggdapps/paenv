@@ -1,9 +1,9 @@
-develop :
+setup :
 	@rm -rf pa-env
 	@echo "Setting up virtual environment for python 3.x ..."
 	@virtualenv --python=python3.2 pa-env 
-	@bash -c "source pa-env/bin/activate ; python ./setup.py develop"
-	@bash -c "source pa-env/bin/activate ; easy_install-3.2 sphinx"
+	@bash -c "source pa-env/bin/activate ; easy_install-3.2 pluggdapps"
+	@bash -c "source pa-env/bin/activate ; easy_install-3.2 tayra"
 
 pushcode: push-googlecode push-bitbucket push-github 
 
