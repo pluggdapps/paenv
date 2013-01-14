@@ -39,4 +39,4 @@ To learn more about the ``serve`` sub-command try,
 
 .. code-block:: bash
 
-    ./pa-env/bin/pa -w -c etc/master.ini serve -h
+    ./pa-env/bin/pa serve -h
