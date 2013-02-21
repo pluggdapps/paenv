@@ -16,3 +16,11 @@ push-bitbucket:
 push-github:
 	hg bookmark -f -r default master
 	hg push git+ssh://git@github.com:prataprc/paenv.git
+
+clean:
+	rm -rf cache/ttl
+	rm -rf `find ./ -name parsetyrtab.py`;
+	rm -rf `find ./ -name lextyrtab.py`;
+	rm -rf `find ./ -name "*.pyc"`;
+	rm -rf `find ./ -name "yacctab.py"`;
+	rm -rf `find ./ -name "lextab.py"`;
