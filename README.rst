@@ -13,15 +13,15 @@ publish it on github.
 **Prerequisits to setup paenv virtual environment**
 
 - Install package python3-setuptools,
-        sudo apt-get install python3-setuptools,
+  ``sudo apt-get install python3-setuptools``,
   this will give you the command easy_install3.
 
 - Install pip using Python 3's setuptools,
-        sudo easy_install3 pip
+  ``sudo easy_install3 pip``,
   will give you the command pip-3.2 like kev's solution.
 
 - Install virtual environment using pip-3.2
-        sudo pip-3.2 install virtualenv
+  ``sudo pip-3.2 install virtualenv``.
 
 
 .. code-block:: bash
