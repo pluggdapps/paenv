@@ -19,6 +19,8 @@ push-github:
 
 clean:
 	rm -rf cache/ttl
+	rm -rf pa-env/
+	rm -rf __pycache__/
 	rm -rf `find ./ -name parsetyrtab.py`;
 	rm -rf `find ./ -name lextyrtab.py`;
 	rm -rf `find ./ -name "*.pyc"`;
