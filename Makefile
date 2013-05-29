@@ -5,7 +5,7 @@ setup :
 	@bash -c "source pa-env/bin/activate ; easy_install-3.2 pluggdapps"
 	@bash -c "source pa-env/bin/activate ; easy_install-3.2 tayra"
 
-pushcode: push-googlecode push-bitbucket push-github 
+pushcode: push-googlecode push-github 
 
 push-googlecode:
 	hg push https://prataprc@code.google.com/p/paenv/
