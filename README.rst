@@ -1,6 +1,6 @@
-Clone this repository from github or google-code or bit-bucket, and create a
-python `virtual environment` to run pluggdapps. This repository will provide
-you with,
+Clone this repository from github or google-code, and create a python
+`virtual environment` to run pluggdapps. This repository will provide you
+with,
 
 - ``make setup``, to setup the virtual environment for pluggdapps.
 - ``etc/`` directory that will have configuration settings for pluggdapps and
