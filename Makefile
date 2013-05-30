@@ -5,6 +5,7 @@ setup :
 	@bash -c "source pa-env/bin/activate ; pip install pluggdapps"
 	@bash -c "source pa-env/bin/activate ; pip install tayra"
 	@bash -c "source pa-env/bin/activate ; pip install tayrakit"
+	@bash -c "source pa-env/bin/activate ; pip install beautifulsoup4"
 
 pushcode: push-googlecode push-github push-bitbucket 
 
