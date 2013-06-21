@@ -81,8 +81,8 @@ Full documentation of pluggdapps and ``pa-script`` is available
 
 **Known issues**
 
-- Note that at-present python-3.3 may not by distributed for ubuntu, and many
-  python packages are releasing their latest versions compatible with 3.3 because
-  unicode syntax ``u''`` is added back. If you come across any problems related
-  to this post us to `pluggdapps` google groups.
+- Note that at-present python-3.3 may not by distributed for ubuntu, and
+  many python packages are releasing their latest versions compatible with 3.3
+  because unicode syntax ``u''`` is added back. If you come across any
+  problems related to this post us to `pluggdapps` google groups.
 
