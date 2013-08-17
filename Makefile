@@ -1,7 +1,7 @@
 setup :
 	@rm -rf pa-env
 	@echo "Setting up virtual environment for python 3.x ..."
-	@virtualenv-3.2 --python=python3.2 pa-env 
+	@virtualenv-$(PYVER) --python=python$(PYVER) pa-env 
 	@bash -c "source pa-env/bin/activate ; pip install pluggdapps"
 	@bash -c "source pa-env/bin/activate ; pip install tayra"
 	@bash -c "source pa-env/bin/activate ; pip install tayrakit"

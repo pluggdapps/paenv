@@ -27,7 +27,7 @@ publish it on github.
 .. code-block:: bash
 
    cd paenv
-   make setup
+   PYVER=3.2 make setup     # Use a desired python3.x version
 
 This will create a virtual environment and install latest version of
 pluggdapps and related packages. A note on the directory structure,
